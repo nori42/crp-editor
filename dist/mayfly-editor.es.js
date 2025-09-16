@@ -19456,7 +19456,10 @@ class q0 {
   };
   //Available Methods
   toggleReadOnly() {
-    this.editable = !this.editable;
+    this.editable = !1;
+  }
+  toggleEditable() {
+    this.editable = !0;
   }
   getContent(e = null) {
     return e == null ? this.instance.action(zc(e)) : this.instance.action(zc());
