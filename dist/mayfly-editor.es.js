@@ -19446,8 +19446,7 @@ class q0 {
           if (c !== u) {
             const h = l.state.doc.cut(c, u), d = a(h);
             this.textSelected(d);
-          } else
-            this.textSelected("");
+          }
         }
       );
     }).use(Ub).use(pf).use(Qf).use(t).create().then((r) => {
