@@ -23941,7 +23941,7 @@ const yI = (t, e) => {
     r
   ), e.querySelectorAll(".mayfly-dropdown-toggle").forEach((i) => {
     i.addEventListener("click", (o) => {
-      o.stopPropagation(), console.log("Hello");
+      o.stopPropagation();
       const s = i.parentElement;
       s.classList.toggle("mayfly-active"), document.querySelectorAll(".mayfly-dropdown").forEach((l) => {
         l !== s && l.classList.remove("mayfly-active");
