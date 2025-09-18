@@ -24567,7 +24567,7 @@ function zI(t, e) {
     return l.addEventListener("blur", s), {
       update: (a, c) => {
         const { from: u, to: f } = a.state.selection;
-        console.log(a), u !== f && e.editable == !0 ? n.style.display = "flex" : n.style.display = "none", o.update(a, c);
+        u !== f && e.editable == !0 ? n.style.display = "flex" : n.style.display = "none", o.update(a, c);
       },
       destroy: () => {
         o.destroy(), n.remove(), l.removeEventListener("blur", s, !0);
